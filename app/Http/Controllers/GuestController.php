@@ -6,7 +6,12 @@ use Illuminate\Http\Request;
 
 class GuestController extends Controller
 {
-    public function home()
+    // public function __construct()
+    // {
+    //     $this->middleware('auth');
+    // }
+
+     public function home()
     {
         return view('pages.home');
     }
